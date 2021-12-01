@@ -207,7 +207,7 @@
 }
 
 .intro__title-word--plus::before {
-  content: '+';
+  content: 'of';
   margin-right: 10px;
   opacity: 0.4;
 }

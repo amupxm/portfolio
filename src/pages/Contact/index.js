@@ -64,7 +64,7 @@ const Contact = () => {
       try {
         setSending(true);
 
-        const response = await fetch('https://api.hamishw.com/message', {
+        const response = await fetch('https://api.mokaramifar.info/message', {
           method: 'POST',
           mode: 'cors',
           headers: {
@@ -99,7 +99,7 @@ const Contact = () => {
   return (
     <Section className={classNames('contact', `contact--${status}`)}>
       <Helmet>
-        <title>Contact | Hamish Williams</title>
+        <title>Contact | Mokaramifar.info</title>
         <meta
           name="description"
           content="Send me a message if you’re interested in discussing a project or if you just want to say hi"

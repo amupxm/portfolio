@@ -86,7 +86,7 @@ function NotFound() {
               </video>
               <a
                 className={classNames('page-404__credit', `page-404__credit--${status}`)}
-                href="https://twitter.com/ruinergame"
+                href="https://twitter.com/amupxm"
                 target="_blank"
                 rel="noopener noreferrer"
               >

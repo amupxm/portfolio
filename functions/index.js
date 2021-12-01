@@ -14,7 +14,7 @@ const ses = new aws.SES({
   region: 'us-east-1',
 });
 
-const ORIGIN = 'https://hamishw.com';
+const ORIGIN = 'https://mokaramifar.info';
 const MAX_EMAIL_LENGTH = 512;
 const MAX_MESSAGE_LENGTH = 4096;
 
@@ -49,9 +49,9 @@ app.post('/message', async (req, res) => {
 
     // Send email using AWS SES
     await ses.sendEmail({
-      Source: 'Portfolio <mailbot@hamishw.com>',
+      Source: 'Portfolio <mailbot@mokaramifar.info>',
       Destination: {
-        ToAddresses: ['hello@hamishw.com'],
+        ToAddresses: ['hello@mokaramifar.info'],
       },
       Message: {
         Subject: { Data: `New message from ${email}` },

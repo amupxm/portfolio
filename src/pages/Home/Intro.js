@@ -73,10 +73,10 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                 className={classNames('intro__name', `intro__name--${status}`)}
                 id={titleId}
               >
-                <DecoderText text="Hamish Williams" start={!prerender} delay={300} />
+                <DecoderText text="Amir.H Mokaramifar" start={!prerender} delay={300} />
               </h1>
               <Heading level={0} as="h2" className="intro__title">
-                <VisuallyHidden className="intro__title-label">{`Designer + ${introLabel}`}</VisuallyHidden>
+                <VisuallyHidden className="intro__title-label">{`${introLabel} developer`}</VisuallyHidden>
                 <span
                   aria-hidden
                   className={classNames('intro__title-row', {
@@ -90,7 +90,7 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                     )}
                     style={{ '--delay': tokens.base.durationXS }}
                   >
-                    Designer
+                    Developer
                   </span>
                   <span
                     className={classNames(

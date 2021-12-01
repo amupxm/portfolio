@@ -60,7 +60,7 @@ function Header(props) {
       <RouterLink
         className="navbar__logo"
         to={{ pathname: '/', hash: '#intro', state: hashKey }}
-        aria-label="Hamish Williams, Designer"
+        aria-label="Mokaramifar | developer"
         onClick={handleMobileNavClick}
         onMouseUp={blurOnMouseUp}
       >

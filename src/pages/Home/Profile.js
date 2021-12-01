@@ -30,19 +30,10 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you're interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
-    </Text>
-    <Text
-      className={classNames('profile__description', `profile__description--${status}`)}
-      size="l"
-    >
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      I’m Amir; currently, I live in turkey working as a software engineer at <Link href="http://rail.town/">Rail Town</Link>. My projects include System architecture, Creating open-source libraries, debugging, and maintaining legacy code.
+      Being comfortable with the system allows me to rapidly experience a new edge of tech.
+      If you’re interested in the network and software, check out my    <Link href="http://github.com/amupxm/">Github</Link>.
+      I’m always down for hearing about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
 );

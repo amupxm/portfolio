@@ -14,7 +14,7 @@
   }
 }
 
-/* Netrunner theme by Hamish Williams */
+/* Netrunner theme by mokaramifar.info */
 .code--dark {
   --char: #d8dee9;
   --comment: #b2b2b2;
@@ -32,7 +32,7 @@
   --background: rgb(29 29 35);
 }
 
-/* Legible light theme by Hamish Williams */
+/* Legible light theme by mokaramifar.info */
 .code--light {
   --char: rgba(0 0 0 / 0.8);
   --comment: rgba(0 0 0 / 0.6);
